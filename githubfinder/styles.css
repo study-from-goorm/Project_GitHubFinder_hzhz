@@ -1,0 +1,180 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(65, 121, 225);
+    width : 100%;
+    height: 5vh;
+}
+
+header h1 {
+    color : #fff;
+    font-size : 24px;
+    padding-top : 1vh;
+    padding-left : 2vh; 
+    font-weight : lighter;
+} 
+
+.search-container { 
+    border : 1px solid #DFDFDF;
+    border-radius: 5px ;
+    width : 100% ;
+    height : 20vh;
+    margin-top : 1vh;
+    margin-left : 1vh;
+    margin-right : 5vh;
+    margin-bottom : 1vh;
+    padding-left : 2vh;
+}
+.search-main {
+    font-size : 50px;
+    font-weight: bold;
+    padding-top : 2vh;
+}
+.search-sub {
+    padding-top : 1vh;
+    font-size : 25px;
+    color : #7c838a;
+}
+.search-input {
+    margin-top : 2vh;
+    padding : 0.5vh;
+    width : 70% ;
+    border : 1px solid #A4ACB4;
+    border-radius: 5px;
+}
+.profile-container{
+    border : 1px solid #dfdfdf;
+    border-radius: 5px;
+    width : 100%;
+    height : 300px;
+    margin-top : 2vh;
+    margin-left : 1vh;
+    margin-right : 5vh;
+    padding-top : 2vh;
+    padding-left : 2vh;
+}
+.user-pic{
+    width : 200px;
+    margin : 1vh;
+}
+.view{
+    width : 210px;
+    border-radius : 10px;
+    border : none;
+    color : white;
+    background-color: #4179E1;
+    height : 30px;
+    font-size : 15px;
+    position : relative;
+    left : -215px;
+    bottom : -25px;
+}
+.buttons{
+    position : relative;
+    left : 250px;
+    top: -220px;
+}
+.Repos{
+    background-color: #4179E1 ;
+    border : none;
+    border-radius: 3px;
+    width : 125px;
+    height : 25px;
+    color : white;
+}
+.Gists{
+    background-color: #A4ACB4 ;
+    border : none;
+    border-radius: 3px;
+    width : 110px;
+    height : 25px;
+    color : white;
+}
+.Followers{
+    background-color: #3DAB6F ;
+    border : none;
+    border-radius: 3px;
+    width : 125px;
+    height : 25px;
+    color : white;
+}
+.Following{
+    background-color: #3695AC ;
+    border : none;
+    border-radius: 3px;
+    width : 110px;
+    height : 25px;
+    color : white;
+}
+.profile-box{
+    position : relative;
+    right : -250px;
+    top : -200px;
+    border : 1px solid #dfdfdf; 
+    border-radius: 5px;
+    list-style: none;
+    width : 700px;
+    padding-left : 10px;
+}
+ul.profile-box li{
+    padding : 5px 5px 5px 5px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    border-bottom : 1px solid #dfdfdf;
+}
+ul.profile-box li:last-child{
+    border-bottom: none;
+}
+.Latestrepos{
+    margin : 20px 20px 15px;
+    font-weight : bold;
+    font-size: 40px;
+}
+.Repo{
+    border : 1px solid #dfdfdf;
+    margin : 10px 20px 10px;
+    padding : 5px;
+    color : #4179e1;
+    font-weight : bold;
+}
+.stars, .watchers, .Forks{
+    border : none;
+    border-radius: 2px;
+    color : white;
+}
+.title{
+    margin-top : 2vh;
+}
+.stars{
+    background-color: #4179E1;
+    width : 70px;
+    height : 25px;
+    position : relative;
+    right : -50%;
+    top : -20px;
+}
+.watchers{
+    background-color: #A4ACB4;
+    width : 100px;
+    height : 25px;
+    position : relative;
+    right : -50%;
+    top : -20px;
+}
+.Forks{
+    background-color: #3DAB6F;
+    width : 120px;
+    height : 25px;
+    position : relative;
+    right : -50%;
+    top : -20px;
+}
+body h6 {
+   margin-left : 50%;
+   font-weight: lighter;
+}
